@@ -1,0 +1,24 @@
+{
+  "name": "asuk/email-templates",
+  "description": "Email Templates for ASUK",
+  "keywords": [
+    "laravel"
+  ],
+  "license": "CC",
+  "authors": [
+    {
+      "name": "Jack Powell",
+      "homepage": "https://github.com/coderjp"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "fedeisas/laravel-mail-css-inliner": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Asuk\\EmailTemplates\\": "src"
+    }
+  }
+}
